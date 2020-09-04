@@ -231,6 +231,8 @@ main .about-info {
         font-size: 1.2rem; }
       main .about-info .job__header__place {
         font-size: 0.8rem; }
+    main .about-info .job__role {
+      font-size: 1rem; }
 
 main .projects {
   display: grid;
