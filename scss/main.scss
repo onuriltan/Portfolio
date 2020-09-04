@@ -138,18 +138,26 @@ main {
       font-size: 1.5rem;
     }
 
-    .job-1 {
-      grid-area: job1;
-    }
-
-    .job-2 {
-      grid-area: job2;
-    }
 
     .job {
       background-color: lighten($primary-color, 20);
       padding: 0.5rem;
       border-bottom: $secondary-color 5px solid;
+
+      &__header {
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+          font-size: 1.2rem;
+        }
+
+        &__place {
+          font-size: 0.8rem;
+        }
+      }
+
+
     }
   }
 }

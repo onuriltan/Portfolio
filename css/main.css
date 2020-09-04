@@ -194,6 +194,8 @@ header {
 main {
   padding: 4rem;
   height: 100%; }
+  main .projects img {
+    border-radius: 2px; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -218,14 +220,17 @@ main .about-info {
   main .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
-  main .about-info .job-1 {
-    grid-area: job1; }
-  main .about-info .job-2 {
-    grid-area: job2; }
   main .about-info .job {
     background-color: #333333;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+    main .about-info .job__header {
+      display: flex;
+      justify-content: space-between; }
+      main .about-info .job__header__title {
+        font-size: 1.2rem; }
+      main .about-info .job__header__place {
+        font-size: 0.8rem; }
 
 main .projects {
   display: grid;
@@ -392,7 +397,7 @@ main .projects {
     justify-content: center;
     align-items: center; }
     main .social-icons a {
-      margin: 5px; }
+      margin: 20px; }
   main .about-info .bio {
     font-size: 1.2rem; }
   main .boxes a {
